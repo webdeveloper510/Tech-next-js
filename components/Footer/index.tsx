@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="wow fadeInUp dark:bg-gray-dark relative z-10 bg-white pt-16 md:pt-20 lg:pt-24"
+        className="wow fadeInUp dark:bg-gray-dark relative z-10 bg-whitee pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -16,11 +16,11 @@ const Footer = () => {
          
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+              <div className="mb-2 lg:mb-16">
+                <h2 className="mb-4 text-xl font-bold dark:text-white">
                 What we do
                 </h2>
-                <ul>
+                <ul className="footer-list">
                   <li>
                     <a
                       href="/"
@@ -67,11 +67,11 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+              <div className="mb-2 lg:mb-16">
+                <h2 className="mb-4 text-xl font-bold dark:text-white">
                   Company
                 </h2>
-                <ul>
+                <ul className="footer-list">
                   <li>
                     <a
                       href="/"
@@ -117,11 +117,11 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+              <div className="mb-2 lg:mb-16">
+                <h2 className="mb-4 text-xl font-bold dark:text-white">
                   Contact
                 </h2>
-                <ul>
+                <ul className="footer-list">
                   <li>
                     <a
                       href="/"
@@ -159,9 +159,9 @@ const Footer = () => {
             </div>
         
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="mb-2 max-w-[360px] lg:mb-16">
              
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-4 text-xl font-bold dark:text-white">
                 Subscribe
                 </h2>
       <div className="newsletter-box">
@@ -176,7 +176,7 @@ const Footer = () => {
         <input
           type="submit"
           value="Subscribe"
-          className="shadow-submit dark:shadow-submit-dark mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90"
+          className="btn-subscribe"
         id="btn_news_letter"
         />
         <p className="dark:text-body-color-dark text-left text-base leading-relaxed text-body-color">
